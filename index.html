@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Title</title>
+		<link rel="stylesheet" href="./style/index.css" />
+		<script src="main.js" defer></script>
+		<link rel="stylesheet" href="./style/home.css"/>
+	</head>
+	<body>
+		<div class="container-header grey-box">
+			<a href="home.html"
+				><h1><span class="grey">Grey</span>Fog Movies</h1></a
+			>
+			<a href="home.html"><p>Главная страница</p></a>
+		</div>
+		<div class="container">
+			<input class="search" type="search" placeholder="Поиск" />
+			<div class="chto">
+				<aside class="grey-box">
+					<div>
+						<label for="genres"><i>Жанры</i></label>
+						<select name="genres" id="genres">
+							<option value hidden>Выбрать</option>
+							<option>Фентези</option>
+							<option>Приключение</option>
+							<option>Экшен</option>
+							<option>Драма</option>
+							<option>Триллер</option>
+						</select>
+					</div>
+					<div>
+						<label for="age"><i>Возрастные ограничения</i></label>
+						<select name="age" id="age">
+							<option value hidden>Выбрать</option>
+							<option>6+</option>
+							<option>12+</option>
+							<option>16+</option>
+							<option>18+</option>
+						</select>
+					</div>
+					<div>
+						<label for="year"><i>Год выпуска</i></label>
+						<select name="year" id="year">
+							<option value hidden>Выбрать</option>
+							<option>91-2000</option>
+							<option>2001-2013</option>
+							<option>2014-2023</option>
+						</select>
+					</div>
+					<div>
+						<label for="rate"><i>Рейтинг</i></label>
+						<select name="rate" id="rate">
+							<option value hidden>Выбрать</option>
+							<option>0-3</option>
+							<option>4-6</option>
+							<option>7-10</option>
+						</select>
+					</div>
+					<div class="sort">
+						<label for="sort"><strong>Сортировка</strong></label>
+						<select name="sort" id="sort">
+							<option value hidden>Выбрать</option>
+							<option>По названию</option>
+							<option>По рейтингу</option>
+						</select>
+					</div>
+					<button class="reverse">Сверху-вниз</button>
+					<button class="reverse reset">Ресет</button>
+				</aside>
+				<div class="cards grey-box"></div>
+			</div>
+		</div>
+		<footer>
+			<div class="grey-box footer-wraper">
+				<ul>
+					<a href="home.html">
+						<li>Главная</li>
+					</a>
+					<a href="index.html">
+						<li>Каталог</li>
+					</a>
+				</ul>
+				<p>@Copyright Никос.Inc</p>
+			</div>
+		</footer>
+	</body>
+</html>
